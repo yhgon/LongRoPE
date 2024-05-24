@@ -3,6 +3,7 @@
 It's unofficial implementation of LongRoPE for Llama3. 
 
 It's similar as Yarn or RoPE NTK method to support long context LLM However, it is additional beneficial to allow 8 × extension without additional fine-tuning.
+![img](https://arxiv.org/html/2402.13753v1/extracted/5419364/nft.png)
 that means we could use 64K tokens 8K x 8 = 64K tokens without fine-tuning. So I implement it for evaluate LongRoPE without fine-tune. Authors already mentioned the official site but the official Code is not released yet(24 May2024 ) please check their offical site for official implementation. 
 more detail information, check the paper [LongRope :Extending LLM Context Window Beyond 2 Million Tokens](https://arxiv.org/abs/2402.13753)
 
