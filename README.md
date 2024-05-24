@@ -17,5 +17,6 @@ This paper introduces LongRoPE that, for the first time, extends the context win
  
 ## code structure 
 - `long_rope` : longRoPE implementation
-- `LongRoPEWrapper` : huggingface transformer wrapper 
+- `LongRoPEWrapper` : huggingface transformer wrapper
+- `example_llama3_LongRoPE.ipynb` : jupyter notebook and generated output samples w/ or w/o LongRoPE
 
