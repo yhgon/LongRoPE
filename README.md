@@ -1,6 +1,6 @@
 # LongRoPE
 
-It's unofficial implementation of [LongRoPE]() for Llama3. 
+It's unofficial implementation of [LongRoPE](https://arxiv.org/html/2402.13753v1) for Llama3. 
 The official Code is not released yet(24 May2024 )
 
 [LongRope :Extending LLM Context Window Beyond 2 Million Tokens
