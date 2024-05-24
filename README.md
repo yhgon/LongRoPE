@@ -7,7 +7,7 @@ that means we could use 64K tokens 8K x 8 = 64K tokens without fine-tuning. So I
 more detail information, check the paper [LongRope :Extending LLM Context Window Beyond 2 Million Tokens](https://arxiv.org/abs/2402.13753)
 
 
-## Abstract 
+### Abstract 
 Large context window is a desirable feature in large language models (LLMs). However, due to high fine-tuning costs, scarcity of long texts, and catastrophic values introduced by new token positions, current extended context windows are limited to around 128k tokens.
 
 This paper introduces LongRoPE that, for the first time, extends the context window of pre-trained LLMs to an impressive 2048k tokens, with up to only 1k fine-tuning steps at within 256k training lengths, while maintaining performance at the original short context window. This is achieved by three key innovations: (i) we identify and exploit two forms of non-uniformities in positional interpolation through an efficient search, providing a better initialization for fine-tuning and enabling an 8
