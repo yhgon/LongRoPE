@@ -1,12 +1,13 @@
 # LongRoPE
 
-It's unofficial implementation of [LongRoPE](https://arxiv.org/html/2402.13753v1) for Llama3. 
-The official Code is not released yet(24 May2024 )
+It's unofficial implementation of LongRoPE for Llama3. 
 
-[LongRope :Extending LLM Context Window Beyond 2 Million Tokens
-- [paper](https://arxiv.org/abs/2402.13753)
-- [official site](https://github.com/microsoft/LongRoPE)  
 It's very similar as Yarn or RoPE NTK method and it allow 8 × extension without additional fine-tuning.
+so I implement it for evaluate LongRoPE without fine-tune. Authors already mentioned the official site but the official Code is not released yet(24 May2024 ) 
+
+please check their offical site [https://github.com/microsoft/LongRoPE](https://github.com/microsoft/LongRoPE) for official implementation. 
+more detail information, check the paper [LongRope :Extending LLM Context Window Beyond 2 Million Tokens](https://arxiv.org/abs/2402.13753)
+
 
 ## Abstract 
 Large context window is a desirable feature in large language models (LLMs). However, due to high fine-tuning costs, scarcity of long texts, and catastrophic values introduced by new token positions, current extended context windows are limited to around 128k tokens.
